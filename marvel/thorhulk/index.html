@@ -142,6 +142,56 @@
 </head>
 <body>
 	<div style="position: relative; display: inline-block; margin-left: 12%;">
+		<div class="controlModal"  id="controlsModal">
+			<div class="modalCard">
+				<p>These are your controls</p>
+
+				<div class="controlSpecs"> 
+					<div>
+						<h3 style="text-align: center;">
+							Thor
+						</h3>
+
+						<div class="specs">
+							<svg class="w"></svg>
+							<p>Jump</p>
+							<svg class="a"></svg>
+							<p>Retreat</p>
+							<svg class="d"></svg>
+							<p>Charge</p>
+							<svg class="s"></svg>
+							<p>Attack</p>
+						</div>
+					</div>
+
+					<div>
+						<h3 style="text-align: center;">
+							Hulk
+						</h3>
+
+						<div class="specs">
+							<svg class="up"></svg>
+							<p>Jump</p>
+							<svg class="left"></svg>
+							<p>Charge</p>
+							<svg class="right"></svg>
+							<p>Retreat</p>
+							<svg class="down"></svg>
+							<p>Attack</p>
+						</div>
+					</div>	
+				</div>
+
+
+			</div>
+	
+		</div>
+
+		<div class="controlsDiv">
+			<button class="ctrlBtn" id="controls">
+				Controls
+			</button>
+		</div>
 		<div style="position: absolute; display: flex; width: 100%; align-items: center; padding: 20px">
 			
 			<div style="position: relative;
@@ -214,5 +264,19 @@
 	<script src="js/utils.js"></script>
 	<script src="js/classes.js"></script>
 	<script src="index.js"></script>
+
+	<script>
+
+		const modal = document.getElementById("controlsModal");
+		document.getElementById("controls").addEventListener('click', ()=>{
+			console.log('clicked');
+			modal.style.display = "block";
+		});
+		window.onclick = function(event) {
+			if (event.target == modal) {
+			  modal.style.display = "none";
+			}
+		}
+	</script>
 </body>
 </html>
