@@ -1,0 +1,106 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.gameContainer{
+	position: relative; 
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gameScreen{
+	position: absolute; 
+	display: flex; 
+	width: 100%; 
+	align-items: "center"; 
+	padding: 20px;
+}
+
+.healthBarOutline{
+	position: relative;
+	width: 100%; 
+	display: flex;
+	justify-content: flex-end;
+	border-top: 4px solid white;
+	border-left: 4px solid white;
+	border-bottom: 4px solid white;
+}
+
+.healthOutline{
+	position: relative;
+	width: 100%; 
+	border-top: 4px solid white;
+	border-right: 4px solid white;
+	border-bottom: 4px solid white;
+}
+
+.damageDealt{
+	background-color: #aa0000;
+	height: 30px;
+	width: 100%;
+	border: none;
+}
+
+
+.playerHealth{
+	position: absolute; 
+	background-color: blue; 
+	top: 0; 
+	right: 0; 
+	bottom: 0; 
+	width: 100%;
+
+}
+
+.enemyHealth{
+	position: absolute; 
+	background-color: blue; 
+	top: 0; 
+	right: 0; 
+	left: 0; 
+	bottom: 0;
+
+}
+
+.timer{
+	background-color: #000000;
+	color: #FFFFFF;
+	width: 60px; 
+	height: 40px; 
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.resultText{
+	position: absolute;
+	color: #FFFFFF; 
+	align-items: center;
+	justify-content: center;
+	top: 0; 
+	right: 0; 
+	left: 0; 
+	bottom: 0;
+	display: none;
+}
+
+canvas{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.controlsDiv{
+
+}
+
+.ctrlBtn{
+	background-color: #EE171F;
+	border: none;
+	color: #FFFFFF;
+	box-shadow: rgba(250, 0, 0, 0.4) -5px 5px, rgba(255, 4, 4, 0.3) -10px 10px, rgba(238, 11, 11, 0.2) -15px 15px, rgba(199, 18, 18, 0.1) -20px 20px, rgba(240, 46, 46, 0.05) -25px 25px;
+}
+
+

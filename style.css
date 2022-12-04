@@ -1,0 +1,225 @@
+@import url('https://fonts.cdnfonts.com/css/bentonsans-regular');
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #348C31;
+    --complimentary-color: #000000;
+    --contrast-color: #3bcd36;
+    --close-color: #d50b0b;
+	--light-color:#ABAC7F;
+}
+
+body{
+	background-color: var(--complimentary-color);
+	color: var(--primary-color);
+	font-family: 'BentonSans Regular', sans-serif;
+                                                
+}
+
+header{
+	display: flex;
+	width: 100vw;
+	max-height: 20vh;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+}
+
+footer{
+	display: flex;
+	width: 100vw;
+	max-height: 20vh;
+	bottom: 2px;
+}
+
+
+.battleOptions{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+	align-content: center;
+	gap: 50px;
+}
+
+.arenaSelect{
+	cursor: pointer;
+	border-radius: 8px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 80%;
+	height: 200px;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #EE171F;
+	border: none;
+	color: #FFFFFF;
+	box-shadow: rgba(250, 0, 0, 0.4) -5px 5px, rgba(255, 4, 4, 0.3) -10px 10px, rgba(238, 11, 11, 0.2) -15px 15px, rgba(199, 18, 18, 0.1) -20px 20px, rgba(240, 46, 46, 0.05) -25px 25px;
+}
+h1{
+	font-family: 'BentonSans Regular', sans-serif;
+                                                
+
+}
+
+h2{
+	font-family: 'BentonSans Regular', sans-serif;
+                                                
+
+}
+
+svg{
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;							
+
+}
+
+.deadpool{
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 200px;
+	align-self: start;
+}
+.punisher{
+
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 200px;
+	justify-self: center;
+
+}
+.ironMan{
+	justify-self: center;
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 200px;
+	
+}
+.kang{
+	justify-self: center;
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 200px;
+}
+.thor{
+	justify-self: center;
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 200px;
+}
+.hulk{
+	justify-self: center;
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 200px;
+}
+.starlord{
+	justify-self: center;
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 200px;
+	
+}
+.blackBolt{
+	justify-self: center;
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 200px;
+	
+}
+.warMachine{
+	justify-self: center;
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 200px;
+}
+
+.versus{
+	align-self: center;
+	font-size: 36px;
+
+}
+.gamePrompt{
+	font-weight: bold;
+	font-size: 42px;
+	text-align: center;
+
+}
+
+.fighterName{
+	margin-top: -50px;
+	font-size: 25.96px;
+	font-weight: bold;
+}
+
+#boom2{
+	position: absolute;
+	top: -10%;
+	left: 2%;
+	width: 600px;
+	height: 300px;
+	background-image: url('boom4.gif');
+	background-repeat: no-repeat;
+}
+
+
+#boom3{
+	position: absolute;
+	bottom: 70%;
+    right: -22%;
+	width: 600px;
+	height: 300px;
+	background-image: url('boom4.gif');
+	background-repeat: no-repeat;
+}
+#boom4{
+	position: absolute;
+    bottom: -70%;
+    right: 1%;
+    width: 232px;
+    height: 275px;
+    background-image: url('boom4.gif');
+    background-repeat: no-repeat;
+}
+
+
+#boom5{
+	position: absolute;
+    bottom: -98%;
+    left: 1%;
+    width: 232px;
+    height: 275px;
+    background-image: url('boom4.gif');
+    background-repeat: no-repeat;
+}
+
+#boom6{
+	position: absolute;
+    bottom: -140%;
+    right: -30%;
+    width: 600px;
+    height: 300px;
+    background-image: url('boom4.gif');
+    background-repeat: no-repeat;
+}
+
+#boom7{
+	position: absolute;
+    bottom: -25%;
+    left: 1%;
+    width: 232px;
+    height: 275px;
+    background-image: url('boom4.gif');
+    background-repeat: no-repeat;
+}

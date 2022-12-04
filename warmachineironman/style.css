@@ -1,0 +1,86 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.gameContainer{
+	position: relative; 
+	display: inline-block;
+}
+
+.gameScreen{
+	position: absolute; 
+	display: flex; 
+	width: 100%; 
+	align-items: "center"; 
+	padding: 20px;
+}
+
+.healthBarOutline{
+	position: relative;
+	width: 100%; 
+	display: flex;
+	justify-content: flex-end;
+	border-top: 4px solid white;
+	border-left: 4px solid white;
+	border-bottom: 4px solid white;
+}
+
+.healthOutline{
+	position: relative;
+	width: 100%; 
+	border-top: 4px solid white;
+	border-right: 4px solid white;
+	border-bottom: 4px solid white;
+}
+
+.damageDealt{
+	background-color: #aa0000;
+	height: 30px;
+	width: 100%;
+	border: none;
+}
+
+
+.playerHealth{
+	position: absolute; 
+	background-color: blue; 
+	top: 0; 
+	right: 0; 
+	bottom: 0; 
+	width: 100%;
+
+}
+
+.enemyHealth{
+	position: absolute; 
+	background-color: blue; 
+	top: 0; 
+	right: 0; 
+	left: 0; 
+	bottom: 0;
+
+}
+
+.timer{
+	background-color: #000000;
+	color: #FFFFFF;
+	width: 60px; 
+	height: 40px; 
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.resultText{
+	position: absolute;
+	color: #FFFFFF; 
+	align-items: center;
+	justify-content: center;
+	top: 0; 
+	right: 0; 
+	left: 0; 
+	bottom: 0;
+	display: none;
+}
